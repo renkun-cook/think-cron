@@ -1,9 +1,9 @@
 {
-    "name": "renkun/think-cron",
+    "name": "renkun-cook/think-cron",
     "description": "think-cron",
     "authors": [
         {
-            "name": "renkun",
+            "name": "renkun-cook",
             "email": "169408708@qq.com"
         }
     ],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "renkun\\": "src"
+            "renkun-cook\\": "src"
         }
     },
     "license": "MIT",
@@ -25,7 +25,7 @@
                 "crontab": "src/config.php"
             },
             "services": [
-                "renkun\\cron\\Service"
+                "renkun-cook\\cron\\Service"
             ]
         }
     }

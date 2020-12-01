@@ -6,7 +6,7 @@
 #### 安装教程
 
 ```shell
-composer require huangweijie/think-cron
+composer require renkun-cook/think-cron
 ```
 
 #### 使用说明
@@ -27,9 +27,9 @@ return [
                 'callback' => [
                     ["app\admin\controller\JobTest:test1"],
                     [['app\admin\controller\JobTest','test1']], 
-                    ["app\admin\controller\JobTest:test1", 'huangweijie,huangweijie2'],
-                    ["app\admin\controller\JobTest:test1", ['huangweijie,huangweijie2']], 
-                    [['app\admin\controller\JobTest','test1'], ['huangweijie,huangweijie2']] 
+                    ["app\admin\controller\JobTest:test1", 'renkun-cook,renkun-cook2'],
+                    ["app\admin\controller\JobTest:test1", ['renkun-cook,renkun-cook2']], 
+                    [['app\admin\controller\JobTest','test1'], ['renkun-cook,renkun-cook2']] 
                 ]
             ]
         ],
@@ -43,7 +43,7 @@ return [
             'time' => '0 2,9,36 */2 * * *',
             'mode' => [
                 'callback' => [
-                    ["app\admin\controller\JobTest:test1", 'huangweijie']
+                    ["app\admin\controller\JobTest:test1", 'renkun-cook']
                 ]
             ]
         ],
