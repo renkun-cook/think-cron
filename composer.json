@@ -1,0 +1,32 @@
+{
+    "name": "renkun/think-cron",
+    "description": "think-cron",
+    "authors": [
+        {
+            "name": "renkun",
+            "email": "169408708@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "topthink/framework": "^6.0",
+        "topthink/think-factory": "^1.0.0",
+        "xavier/xcron-expression": "^0.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "renkun\\": "src"
+        }
+    },
+    "license": "MIT",
+    "extra": {
+        "think": {
+            "config": {
+                "crontab": "src/config.php"
+            },
+            "services": [
+                "renkun\\cron\\Service"
+            ]
+        }
+    }
+}
